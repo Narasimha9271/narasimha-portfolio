@@ -73,7 +73,7 @@ const LinksSlider = () => {
         </span>
         <span style={{ "--id": "1" }}>
           <a
-            href={`mailto:${personalUrls.email}?subject=Hi Suhaan`}
+            href={`mailto:${personalUrls.email}?subject=Hi Narasimha`}
             title="Gmail"
           >
             <SiGmail fill="#bb001b" className={styles.icon} />
