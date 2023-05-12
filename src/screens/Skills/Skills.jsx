@@ -27,7 +27,7 @@ const Skills = () => {
                     <li>Tailwind</li>
                 </div>
                 <div>
-                    <h3>Programmming Languages</h3>
+                    <h3>Programming Languages</h3>
                     <li>C++</li>
                     <li>C</li>
                     <li>Python</li>
