@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "title": "Dashboard-Analytics",
+      "description": "It is a analytics webpage in React which shows graphical data pictorially.",
+      "date": "March 2023",
+      "techStack": ["REACT", "VITE", "Tailwind","Material UI","JavaScript"],
+      "codeUrl": "https://github.com/Narasimha9271/Dashboard-Analytics",
+      "liveUrl": "https://dashboardanalytics.vercel.app/",
+      "imageSrc": "/dashboard.png",
+      "imageSrcWebP": "/dashboard.webp",
+      "imageInfo": "Dashboard-Analytics"
+    },
+    {
       "title": "A Video Streaming App",
       "description": "It is a video streaming application created in React which has functionalities like Debouncing,N-Level nested comments,caching,Live Chat.",
       "date": "March 2023",
