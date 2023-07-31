@@ -18,7 +18,7 @@ const sectionNames = [
 const Navbar = () => {
     const scroll = useScrollHandler(80);
     const [showMenu, setShowMenu] = useState(false);
-    const setDocumentTitle = useDocumentTitle("Suhaan's Portfolio");
+    const setDocumentTitle = useDocumentTitle("Narasimha's Portfolio");
 
     useEffect(() => {
         document.body.classList.toggle("hidden", showMenu);
@@ -63,7 +63,7 @@ const Navbar = () => {
                                 onClick={() => setShowMenu(() => !showMenu)}
                                 onSetActive={() =>
                                     setDocumentTitle(
-                                        `Suhaan's Portfolio | ${name}`
+                                        `Narasimha's Portfolio | ${name}`
                                     )
                                 }
                                 className={

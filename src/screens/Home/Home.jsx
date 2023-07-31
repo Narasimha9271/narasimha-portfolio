@@ -24,7 +24,7 @@ const Home = () => {
                             "Problem Solving",
                             "Engineering",
                         ]}
-                        typeSpeed={250}
+                        typeSpeed={200}
                         backSpeed={50}
                         loop
                     />
