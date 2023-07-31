@@ -25,8 +25,8 @@ const About = () => {
                     Hi!, I am Narasimha Palla, and currently studying Electrical
                     Engineering at NIT AndhraPradesh.
                 </p>
-                <p>I am a Web-Development intern at VRIT Labs</p>
-                <p>I am a Web-Development intern at CALLVCAL</p>
+                <p>I am a Web-Development intern at VRIT Labs.</p>
+                <p>I am a Web-Development intern at CALLVCAL.</p>
                 <p>I am web-developer at GDSC NITAP.</p>
                 <p>I enjoy building websites and exploring new technologies.</p>
                 <p className={styles.email}>

@@ -19,12 +19,14 @@ const Skills = () => {
                 </h1>
 
                 <div>
-                    <h3>Frontend</h3>
+                    <h3>Web technologies</h3>
                     <li>React</li>
-                    <li>JavaScript</li>
                     <li>jQuery</li>
                     <li>HTML and CSS</li>
-                    <li>Tailwind</li>
+                    <li>Tailwind and MUI</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Mongo DB</li>
                 </div>
                 <div>
                     <h3>Programming Languages</h3>
@@ -36,6 +38,7 @@ const Skills = () => {
                 <div>
                     <h3>Primary Tools</h3>
                     <li>Text Editor: VSCode</li>
+                    <li>Postman</li>
                     <li>Git </li>
                     <li>GitHub</li>
                     <li>Bash</li>
