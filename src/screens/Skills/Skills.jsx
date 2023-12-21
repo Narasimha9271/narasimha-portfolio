@@ -27,13 +27,23 @@ const Skills = () => {
                     <li>Node</li>
                     <li>Express</li>
                     <li>Mongo DB</li>
+                    <li>Docker</li>
+                </div>
+                <div>
+                    <h3>Machine Learning</h3>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Supervised Machine Learning</li>
                 </div>
                 <div>
                     <h3>Programming Languages</h3>
                     <li>C++</li>
                     <li>C</li>
                     <li>Python</li>
+                    <li>Java</li>
                     <li>JavaScript</li>
+                    <li>TypeScript</li>
                 </div>
                 <div>
                     <h3>Primary Tools</h3>

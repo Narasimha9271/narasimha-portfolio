@@ -35,19 +35,20 @@
 */
 
 :root {
-  --accent-color: #a624ff;
-  --avatar-bg-color: #a624ff;
+  --accent-color: orange;
+  --avatar-bg-color: orange;
   --text-white: #fff;
   --text-light: #f7faff;
   --text-dark: #141c3a;
-  --home-title-color: #15a6a6;
+  --home-title-color: gray;
   --box-shadow: hsla(240, 5%, 41%, 0.2) 0 7px 29px 0;
   --bg-white: #fff;
   --bg-light: #eaf6f6;
-  --bg-dark: #15a6a6;
+  --bg-dark: gray;
   --bg-home: #fff;
   --btn-text-color: #fff;
-  --btn-bg-color: #a624ff;
+  --btn-bg-color: orange;
+  color:#ffab24;
   --box-border-radius: 10px;
 }
 /* Common CSS Properties For the Project*/

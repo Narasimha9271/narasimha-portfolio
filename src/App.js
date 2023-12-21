@@ -3,7 +3,15 @@ import LinksSlider from "./components/LinksSlider/LinksSlider";
 import Navbar from "./components/Navbar/Navbar";
 import SkipToMainContent from "./components/SkipToMainContent/SkipToMainContent";
 
-import { About, Education, Footer, Home, MainProject, Skills } from "./screens";
+import {
+    About,
+    Education,
+    Footer,
+    Home,
+    MainProject,
+    OtherProject,
+    Skills,
+} from "./screens";
 
 function App() {
     useEffect(() => {
@@ -20,6 +28,7 @@ function App() {
             <About />
             <Skills />
             <MainProject />
+            <OtherProject />
             <Education />
             <Footer />
         </div>

@@ -34,18 +34,7 @@
       "imageSrcWebP": "/batteryswapping.webp",
       "imageInfo": "Battery Swapping"
     },
-    {
-      "title": "Password Generator",
-      "description": "A website which helps users to generate random password and also tells the strength of the password.",
-      "date": "April 2023",
-      "techStack": ["JavaScript", "HTML","CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/Password-Generator",
-      "liveUrl": "https://narasimha-password-generator.vercel.app/",
-
-      "imageSrc": "/passwordgenerator.png",
-      "imageSrcWebP": "/passwordgenerator.webp",
-      "imageInfo": "Password Generator"
-    },
+    
     {
       "title": "Food Villa",
       "description": "A website which helps users to generate random password and also tells the strength of the password.",
@@ -56,30 +45,6 @@
       "imageSrc": "/foodvilla.png",
       "imageSrcWebP": "/foodvilla.webp",
       "imageInfo": "Food Villa"
-    },
-    {
-      "title": "Sudoku",
-      "description": "A Sudoku game which uses Backtracking Algorithm and made with React Library.",
-      "date": "December 2022",
-      "techStack": ["React", "Backtracking"],
-      "codeUrl": "https://github.com/Narasimha9271/SudokuSolver",
-      "liveUrl": "https://narasimha9271.github.io/SudokuSolver/",
-
-      "imageSrc": "/sudoku.png",
-      "imageSrcWebP": "/sudoku.webp",
-      "imageInfo": "Sudoku Game"
-    },
-    {
-      "title": "Calculator",
-      "description": "A Website which can be used to calulate arithmetic calculations.",
-      "date": "November 2022",
-      "techStack": ["JavaScript", "HTML/CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/MINI-CALCI",
-      "liveUrl": "https://calculatorx-xi.vercel.app/",
-
-      "imageSrc": "/calci.png",
-      "imageSrcWebP": "/calci.webp",
-      "imageInfo": "Calculator"
     }
   ]
 }
