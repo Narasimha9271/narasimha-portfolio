@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "title": "NarasimhaGPT",
+      "description": "It is a chat gpt clone which gives response according to user's request.",
+      "date": "Dec 2023",
+      "techStack": ["REACT", "NODE", "OpenAI","CSS","JavaScript"],
+      "codeUrl": "https://github.com/Narasimha9271/NarasimhaGPT",
+      "imageSrc": "/gpt.png",
+      "imageSrcWebP": "/gpt.webp",
+      "imageInfo": "NarasimhaGPT"
+    },
+    {
+      "title": "Netflix-GPT",
+      "description": "It is a netflix clone which has trending,popular movie list and GPT based search to give suggestions for movie type.",
+      "date": "Oct 2023",
+      "techStack": ["REACT", "Firebase", "OPENAI_API","Tailwind","JavaScript"],
+      "codeUrl": "https://github.com/Narasimha9271/gpt-flix",
+
+      "imageSrc": "/netflix.png",
+      "imageSrcWebP": "/netflix.webp",
+      "imageInfo": "Netflix-GPT"
+    },
+    {
       "title": "Dashboard-Analytics",
       "description": "It is a analytics webpage in React which shows graphical data pictorially.",
       "date": "March 2023",
@@ -37,7 +58,7 @@
     
     {
       "title": "Food Villa",
-      "description": "A website which helps users to generate random password and also tells the strength of the password.",
+      "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
       "date": "April 2023",
       "techStack": ["JavaScript", "REACT","REDUX","Tailwind"],
       "codeUrl": "https://github.com/Narasimha9271/Food-Villa",
