@@ -18,23 +18,19 @@
         },
         {
             "title": "HungerHub",
-            "description": "A Full Stack application has order functiionality for users and restaurant owners as like as swiggy and has payment gateway through stripe.",
+            "description": "A Full Stack app has order functionality for users and restaurant owners with payment gateway through stripe.",
             "date": "April 2024",
             "techStack": [
                 "REACT",
-                "NODE",
-                "Stripe",
-                "Auth0",
-                "MongoDB",
-                "Express",
-                "TypeScript",
-                "Shadcn",
-                "JavaScript"
+                "Auth0, Stripe",
+                "MongoDB, Express",
+                "TypeScript, JavaScript",
+                "Shadcn"
             ],
             "codeUrl": "https://github.com/Narasimha9271/hungerhub-frontend",
             "liveUrl": "https://hungerhub-frontend.onrender.com/",
             "imageSrc": "/hungerHub.png",
-            "imageSrcWebP": "/hungerhub.webp",
+            "imageSrcWebP": "/hungerHub.webp",
             "imageInfo": "hungerHub"
         },
         {
@@ -43,14 +39,10 @@
             "date": "Feb 2024",
             "techStack": [
                 "REACT",
-                "NODE",
-                "Stripe",
-                "Auth0",
-                "MongoDB",
-                "Express",
-                "TypeScript",
-                "Tailwind",
-                "JavaScript"
+                "Auth0, Stripe",
+                "MongoDB, Express",
+                "TypeScript, JavaScript",
+                "Tailwind"
             ],
             "codeUrl": "https://github.com/Narasimha9271/Booking-app",
             "liveUrl": "https://viharavista.onrender.com/",
@@ -125,7 +117,6 @@
             "imageSrcWebP": "/batteryswapping.webp",
             "imageInfo": "Battery Swapping"
         },
-
         {
             "title": "Food Villa",
             "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
