@@ -1,77 +1,83 @@
 {
-  "projects": [
-    {
-      "title": "Real Time Chat App",
-      "description": "A Chat based app like Whatsapp created using webRTC.",
-      "date": "Dec 2023",
-      "techStack": ["Node", "JavaScript", "HTML","CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/realtime-chat-app",
+    "projects": [
+        {
+            "title": "Movie Review App",
+            "description": "A Sentimental Analysis Application built using Deep Learning to output the review as positive or negative.",
+            "date": "Feb 2024",
+            "techStack": ["Deep Learning", "Python", "Flask", "HTML", "CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/Sentimental-Analysis",
+            "imageSrc": "/movier.png",
+            "imageSrcWebP": "/movier.webp",
+            "imageInfo": "Movie-Review App"
+        },
+        {
+            "title": "Real Time Chat App",
+            "description": "A Chat based app like Whatsapp created using webRTC.",
+            "date": "Dec 2023",
+            "techStack": ["Node", "JavaScript", "HTML", "CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/realtime-chat-app",
+            "imageSrc": "/chatapp.png",
+            "imageSrcWebP": "/chatapp.webp",
+            "imageInfo": "RealTime ChatApp"
+        },
+        {
+            "title": "GMEET Clone",
+            "description": "An online video conferencing tool a clone og google meet.",
+            "date": "Sep 2023",
+            "techStack": ["JavaScript", "WebRTC", "HTML", "CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/WebRTC-GMeetClone",
+            "imageSrc": "/gmeet.png",
+            "imageSrcWebP": "/gmeet.webp",
+            "imageInfo": "Google Meet"
+        },
+        {
+            "title": "Shortest Distance",
+            "description": "A website which helps users to solve dijkstra's algorithm puzzles.",
+            "date": "June 2023",
+            "techStack": ["JavaScript", "HTML", "CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/ShortestDistance-Graph",
+            "liveUrl": "https://shortest-distance-graph.vercel.app/",
 
-      "imageSrc": "/chatapp.png",
-      "imageSrcWebP": "/chatapp.webp",
-      "imageInfo": "RealTime ChatApp"
-    },
-    {
-      "title": "GMEET Clone",
-      "description": "An online video conferencing tool a clone og google meet.",
-      "date": "Sep 2023",
-      "techStack": ["JavaScript","WebRTC", "HTML","CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/WebRTC-GMeetClone",
-      "imageSrc": "/gmeet.png",
-      "imageSrcWebP": "/gmeet.webp",
-      "imageInfo": "Google Meet"
-    },
-    {
-      "title": "Shortest Distance",
-      "description": "A website which helps users to solve dijkstra's algorithm puzzles.",
-      "date": "June 2023",
-      "techStack": ["JavaScript", "HTML","CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/ShortestDistance-Graph",
-      "liveUrl": "https://shortest-distance-graph.vercel.app/",
+            "imageSrc": "/shortestDistance.png",
+            "imageSrcWebP": "/shortestDistance.webp",
+            "imageInfo": "Shortest Distance"
+        },
+        {
+            "title": "Password Generator",
+            "description": "A website which helps users to generate random password and also tells the strength of the password.",
+            "date": "April 2023",
+            "techStack": ["JavaScript", "HTML", "CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/Password-Generator",
+            "liveUrl": "https://narasimha-password-generator.vercel.app/",
 
-      "imageSrc": "/shortestDistance.png",
-      "imageSrcWebP": "/shortestDistance.webp",
-      "imageInfo": "Shortest Distance"
-    },
-    {
-      "title": "Password Generator",
-      "description": "A website which helps users to generate random password and also tells the strength of the password.",
-      "date": "April 2023",
-      "techStack": ["JavaScript", "HTML","CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/Password-Generator",
-      "liveUrl": "https://narasimha-password-generator.vercel.app/",
+            "imageSrc": "/passwordgenerator.png",
+            "imageSrcWebP": "/passwordgenerator.webp",
+            "imageInfo": "Password Generator"
+        },
 
-      "imageSrc": "/passwordgenerator.png",
-      "imageSrcWebP": "/passwordgenerator.webp",
-      "imageInfo": "Password Generator"
-    },
-    
-    
-    
-    {
-      "title": "Sudoku",
-      "description": "A Sudoku game which uses Backtracking Algorithm and made with React Library.",
-      "date": "December 2022",
-      "techStack": ["React", "Backtracking"],
-      "codeUrl": "https://github.com/Narasimha9271/SudokuSolver",
-      "liveUrl": "https://narasimha9271.github.io/SudokuSolver/",
+        {
+            "title": "Sudoku",
+            "description": "A Sudoku game which uses Backtracking Algorithm and made with React Library.",
+            "date": "December 2022",
+            "techStack": ["React", "Backtracking"],
+            "codeUrl": "https://github.com/Narasimha9271/SudokuSolver",
+            "liveUrl": "https://narasimha9271.github.io/SudokuSolver/",
 
-      "imageSrc": "/sudoku.png",
-      "imageSrcWebP": "/sudoku.webp",
-      "imageInfo": "Sudoku Game"
-    },
-    {
-      "title": "Calculator",
-      "description": "A Website which can be used to calulate arithmetic calculations.",
-      "date": "November 2022",
-      "techStack": ["JavaScript", "HTML/CSS"],
-      "codeUrl": "https://github.com/Narasimha9271/MINI-CALCI",
-      "liveUrl": "https://calculatorx-xi.vercel.app/",
+            "imageSrc": "/sudoku.png",
+            "imageSrcWebP": "/sudoku.webp",
+            "imageInfo": "Sudoku Game"
+        },
+        {
+            "title": "Calculator",
+            "description": "A Website which can be used to calulate arithmetic calculations.",
+            "date": "November 2022",
+            "techStack": ["JavaScript", "HTML/CSS"],
+            "codeUrl": "https://github.com/Narasimha9271/MINI-CALCI",
+            "liveUrl": "https://calculatorx-xi.vercel.app/",
 
-      "imageSrc": "/calci.png",
-      "imageSrcWebP": "/calci.webp",
-      "imageInfo": "Calculator"
-    }
-    
-  ]
+            "imageSrc": "/calci.png",
+            "imageSrcWebP": "/calci.webp",
+            "imageInfo": "Calculator"
+        }
+    ]
 }

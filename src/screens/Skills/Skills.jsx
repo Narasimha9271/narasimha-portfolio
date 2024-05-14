@@ -31,10 +31,10 @@ const Skills = () => {
                 </div>
                 <div>
                     <h3>Machine Learning</h3>
-                    <li>NumPy</li>
-                    <li>Pandas</li>
-                    <li>Matplotlib</li>
                     <li>Supervised Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Reinforcement Learning</li>
+                    <li>Artificial Intelligence</li>
                 </div>
                 <div>
                     <h3>Programming Languages</h3>

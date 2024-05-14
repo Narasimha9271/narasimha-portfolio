@@ -1,71 +1,141 @@
 {
-  "projects": [
-    {
-      "title": "NarasimhaGPT",
-      "description": "It is a chat gpt clone which gives response according to user's request.",
-      "date": "Dec 2023",
-      "techStack": ["REACT", "NODE", "OpenAI","CSS","JavaScript"],
-      "codeUrl": "https://github.com/Narasimha9271/NarasimhaGPT",
-      "imageSrc": "/gpt.png",
-      "imageSrcWebP": "/gpt.webp",
-      "imageInfo": "NarasimhaGPT"
-    },
-    {
-      "title": "Netflix-GPT",
-      "description": "It is a netflix clone which has trending,popular movie list and GPT based search to give suggestions for movie type.",
-      "date": "Oct 2023",
-      "techStack": ["REACT", "Firebase", "OPENAI_API","Tailwind","JavaScript"],
-      "codeUrl": "https://github.com/Narasimha9271/gpt-flix",
+    "projects": [
+        {
+            "title": "AlgoFit",
+            "description": "An Algorithm Selector which gives the algorithm that is most ppropriate for a given dataset",
+            "date": "May 2024",
+            "techStack": [
+                "Reinforcement Learning",
+                "Deep-Q Networks",
+                "OpenAI",
+                "Python",
+                "Flask"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/AlgoFit",
+            "imageSrc": "/algo.png",
+            "imageSrcWebP": "/algo.webp",
+            "imageInfo": "AlgoFit"
+        },
+        {
+            "title": "HungerHub",
+            "description": "A Full Stack application has order functiionality for users and restaurant owners as like as swiggy and has payment gateway through stripe.",
+            "date": "April 2024",
+            "techStack": [
+                "REACT",
+                "NODE",
+                "Stripe",
+                "Auth0",
+                "MongoDB",
+                "Express",
+                "TypeScript",
+                "Shadcn",
+                "JavaScript"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/hungerhub-frontend",
+            "liveUrl": "https://hungerhub-frontend.onrender.com/",
+            "imageSrc": "/hungerHub.png",
+            "imageSrcWebP": "/hungerhub.webp",
+            "imageInfo": "hungerHub"
+        },
+        {
+            "title": "ViharaVista",
+            "description": "A Hotel Booking App for tourists to book the hotels for stay with authentication, payment gateway through stripe.",
+            "date": "Feb 2024",
+            "techStack": [
+                "REACT",
+                "NODE",
+                "Stripe",
+                "Auth0",
+                "MongoDB",
+                "Express",
+                "TypeScript",
+                "Tailwind",
+                "JavaScript"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/Booking-app",
+            "liveUrl": "https://viharavista.onrender.com/",
+            "imageSrc": "/booking.png",
+            "imageSrcWebP": "/booking.webp",
+            "imageInfo": "Booking-App"
+        },
+        {
+            "title": "NarasimhaGPT",
+            "description": "It is a chat gpt clone which gives response according to user's request.",
+            "date": "Dec 2023",
+            "techStack": ["REACT", "NODE", "OpenAI", "CSS", "JavaScript"],
+            "codeUrl": "https://github.com/Narasimha9271/NarasimhaGPT",
+            "imageSrc": "/gpt.png",
+            "imageSrcWebP": "/gpt.webp",
+            "imageInfo": "NarasimhaGPT"
+        },
+        {
+            "title": "Netflix-GPT",
+            "description": "It is a netflix clone which has trending,popular movie list and GPT based search to give suggestions for movie type.",
+            "date": "Oct 2023",
+            "techStack": [
+                "REACT",
+                "Firebase",
+                "OPENAI_API",
+                "Tailwind",
+                "JavaScript"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/gpt-flix",
+            "liveUrl": "https://gptflix-narasimha.vercel.app/",
+            "imageSrc": "/netflix.png",
+            "imageSrcWebP": "/netflix.webp",
+            "imageInfo": "Netflix-GPT"
+        },
+        {
+            "title": "Dashboard-Analytics",
+            "description": "It is a analytics webpage in React which shows graphical data pictorially.",
+            "date": "March 2023",
+            "techStack": [
+                "REACT",
+                "VITE",
+                "Tailwind",
+                "Material UI",
+                "JavaScript"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/Dashboard-Analytics",
+            "liveUrl": "https://dashboardanalytics.vercel.app/",
+            "imageSrc": "/dashboard.png",
+            "imageSrcWebP": "/dashboard.webp",
+            "imageInfo": "Dashboard-Analytics"
+        },
+        {
+            "title": "A Video Streaming App",
+            "description": "It is a video streaming application created in React which has functionalities like Debouncing,N-Level nested comments,caching,Live Chat.",
+            "date": "March 2023",
+            "techStack": ["JAVASCRIPT", "React", "Tailwind", "Redux"],
+            "codeUrl": "https://github.com/Narasimha9271/YouTube-Clone",
+            "liveUrl": "https://youtube-narasimha.vercel.app/",
+            "imageSrc": "/videostreaming.png",
+            "imageSrcWebP": "/videostreaming.webp",
+            "imageInfo": "Video Streaming App"
+        },
+        {
+            "title": "Battery Swapping",
+            "description": "A webApp which helps users to swap their Electric Vehicles at theit nearest Swapstation .",
+            "date": "May 2023",
+            "techStack": ["REACT", "JavaScript", "Tailwind", "Material UI"],
+            "codeUrl": "https://github.com/Narasimha9271/BatterySwapping",
+            "liveUrl": null,
 
-      "imageSrc": "/netflix.png",
-      "imageSrcWebP": "/netflix.webp",
-      "imageInfo": "Netflix-GPT"
-    },
-    {
-      "title": "Dashboard-Analytics",
-      "description": "It is a analytics webpage in React which shows graphical data pictorially.",
-      "date": "March 2023",
-      "techStack": ["REACT", "VITE", "Tailwind","Material UI","JavaScript"],
-      "codeUrl": "https://github.com/Narasimha9271/Dashboard-Analytics",
-      "liveUrl": "https://dashboardanalytics.vercel.app/",
-      "imageSrc": "/dashboard.png",
-      "imageSrcWebP": "/dashboard.webp",
-      "imageInfo": "Dashboard-Analytics"
-    },
-    {
-      "title": "A Video Streaming App",
-      "description": "It is a video streaming application created in React which has functionalities like Debouncing,N-Level nested comments,caching,Live Chat.",
-      "date": "March 2023",
-      "techStack": ["JAVASCRIPT", "React", "Tailwind","Redux"],
-      "codeUrl": "https://github.com/Narasimha9271/YouTube-Clone",
-      "liveUrl": "https://youtube-narasimha.vercel.app/",
-      "imageSrc": "/videostreaming.png",
-      "imageSrcWebP": "/videostreaming.webp",
-      "imageInfo": "Video Streaming App"
-    },
-    {
-      "title": "Battery Swapping",
-      "description": "A webApp which helps users to swap their Electric Vehicles at theit nearest Swapstation .",
-      "date": "May 2023",
-      "techStack": ["REACT", "JavaScript", "Tailwind", "Material UI"],
-      "codeUrl": "https://github.com/Narasimha9271/BatterySwapping",
-      "liveUrl": null,
+            "imageSrc": "/batteryswapping.png",
+            "imageSrcWebP": "/batteryswapping.webp",
+            "imageInfo": "Battery Swapping"
+        },
 
-      "imageSrc": "/batteryswapping.png",
-      "imageSrcWebP": "/batteryswapping.webp",
-      "imageInfo": "Battery Swapping"
-    },
-    
-    {
-      "title": "Food Villa",
-      "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
-      "date": "April 2023",
-      "techStack": ["JavaScript", "REACT","REDUX","Tailwind"],
-      "codeUrl": "https://github.com/Narasimha9271/Food-Villa",
-      "liveUrl": null,
-      "imageSrc": "/foodvilla.png",
-      "imageSrcWebP": "/foodvilla.webp",
-      "imageInfo": "Food Villa"
-    }
-  ]
+        {
+            "title": "Food Villa",
+            "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
+            "date": "April 2023",
+            "techStack": ["JavaScript", "REACT", "REDUX", "Tailwind"],
+            "codeUrl": "https://github.com/Narasimha9271/Food-Villa",
+            "liveUrl": null,
+            "imageSrc": "/foodvilla.png",
+            "imageSrcWebP": "/foodvilla.webp",
+            "imageInfo": "Food Villa"
+        }
+    ]
 }
