@@ -128,7 +128,7 @@
             "imageInfo": "Battery Swapping"
         },
         {
-            "title": "Food VillKing",
+            "title": "Food King",
             "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
             "date": "April 2023",
             "techStack": [
