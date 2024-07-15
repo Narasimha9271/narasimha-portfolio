@@ -1,6 +1,28 @@
 {
     "projects": [
         {
+            "title": "Fake Store",
+            "description": "A E commerce Application that fetches data from online API's and shows list of produxt cards.",
+            "date": "June 2024",
+            "techStack": ["JavaScript", "React", "Tailwind", "HTML"],
+            "codeUrl": "https://github.com/Narasimha9271/Fake-Store",
+            "liveUrl": "https://narasimha-store.vercel.app/",
+            "imageSrc": "/store.png",
+            "imageSrcWebP": "/store.webp",
+            "imageInfo": "Fake-Store App"
+        },
+        {
+            "title": "Meme-App",
+            "description": "A Meme app where you can find infinte no of memes , implemented infinite scroll.",
+            "date": "June 2024",
+            "techStack": ["JavaScript", "React", "Tailwind", "HTML"],
+            "codeUrl": "https://github.com/Narasimha9271/project-Memes",
+            "liveUrl": "https://infinite-memes.vercel.app/",
+            "imageSrc": "/meme.png",
+            "imageSrcWebP": "/meme.webp",
+            "imageInfo": "meme App"
+        },
+        {
             "title": "Movie Review App",
             "description": "A Sentimental Analysis Application built using Deep Learning to output the review as positive or negative.",
             "date": "Feb 2024",
@@ -37,7 +59,6 @@
             "techStack": ["JavaScript", "HTML", "CSS"],
             "codeUrl": "https://github.com/Narasimha9271/ShortestDistance-Graph",
             "liveUrl": "https://shortest-distance-graph.vercel.app/",
-
             "imageSrc": "/shortestDistance.png",
             "imageSrcWebP": "/shortestDistance.webp",
             "imageInfo": "Shortest Distance"

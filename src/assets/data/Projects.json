@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "title": "Building Express.js",
+            "description": "A Library exactly similar to Express, Which include functionality like routing, REST API etc.",
+            "date": "June 2024",
+            "techStack": ["Node.js", "JavaScript"],
+            "codeUrl": "https://github.com/Narasimha9271/Building-Express",
+            "imageSrc": "/exp.png",
+            "imageSrcWebP": "/exp.webp",
+            "imageInfo": "Express"
+        },
+        {
             "title": "AlgoFit",
             "description": "An Algorithm Selector which gives the algorithm that is most ppropriate for a given dataset",
             "date": "May 2024",
@@ -118,12 +128,19 @@
             "imageInfo": "Battery Swapping"
         },
         {
-            "title": "Food Villa",
+            "title": "Food VillKing",
             "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
             "date": "April 2023",
-            "techStack": ["JavaScript", "REACT", "REDUX", "Tailwind"],
-            "codeUrl": "https://github.com/Narasimha9271/Food-Villa",
-            "liveUrl": null,
+            "techStack": [
+                "JavaScript",
+                "REACT",
+                "Node",
+                "Express",
+                "Tailwind",
+                "Swiggy API"
+            ],
+            "codeUrl": "https://github.com/Narasimha9271/Food-King/",
+            "liveUrl": "https://food-king.onrender.com/",
             "imageSrc": "/foodvilla.png",
             "imageSrcWebP": "/foodvilla.webp",
             "imageInfo": "Food Villa"
