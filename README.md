@@ -6,6 +6,8 @@ Personal portfolio focused on Java/backend and SDE opportunities. Includes profe
 
 ## Development
 
+Use Node.js 22 (also pinned for Vercel in ngines.node).
+
 ```sh
 npm ci
 npm start
