@@ -1,149 +1,40 @@
 {
-    "projects": [
-        {
-            "title": "Building Express.js",
-            "description": "A Library exactly similar to Express, Which include functionality like routing, REST API etc.",
-            "date": "June 2024",
-            "techStack": ["Node.js", "JavaScript"],
-            "codeUrl": "https://github.com/Narasimha9271/Building-Express",
-            "imageSrc": "/exp.png",
-            "imageSrcWebP": "/exp.webp",
-            "imageInfo": "Express"
-        },
-        {
-            "title": "AlgoFit",
-            "description": "An Algorithm Selector which gives the algorithm that is most ppropriate for a given dataset",
-            "date": "May 2024",
-            "techStack": [
-                "Reinforcement Learning",
-                "Deep-Q Networks",
-                "OpenAI",
-                "Python",
-                "Flask"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/AlgoFit",
-            "imageSrc": "/algo.png",
-            "imageSrcWebP": "/algo.webp",
-            "imageInfo": "AlgoFit"
-        },
-        {
-            "title": "HungerHub",
-            "description": "A Full Stack app has order functionality for users and restaurant owners with payment gateway through stripe.",
-            "date": "April 2024",
-            "techStack": [
-                "REACT",
-                "Auth0, Stripe",
-                "MongoDB, Express",
-                "TypeScript, JavaScript",
-                "Shadcn"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/hungerhub-frontend",
-            "liveUrl": "https://hungerhub-frontend.onrender.com/",
-            "imageSrc": "/hungerHub.png",
-            "imageSrcWebP": "/hungerHub.webp",
-            "imageInfo": "hungerHub"
-        },
-        {
-            "title": "ViharaVista",
-            "description": "A Hotel Booking App for tourists to book the hotels for stay with authentication, payment gateway through stripe.",
-            "date": "Feb 2024",
-            "techStack": [
-                "REACT",
-                "Auth0, Stripe",
-                "MongoDB, Express",
-                "TypeScript, JavaScript",
-                "Tailwind"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/Booking-app",
-            "liveUrl": "https://viharavista.onrender.com/",
-            "imageSrc": "/booking.png",
-            "imageSrcWebP": "/booking.webp",
-            "imageInfo": "Booking-App"
-        },
-        {
-            "title": "NarasimhaGPT",
-            "description": "It is a chat gpt clone which gives response according to user's request.",
-            "date": "Dec 2023",
-            "techStack": ["REACT", "NODE", "OpenAI", "CSS", "JavaScript"],
-            "codeUrl": "https://github.com/Narasimha9271/NarasimhaGPT",
-            "imageSrc": "/gpt.png",
-            "imageSrcWebP": "/gpt.webp",
-            "imageInfo": "NarasimhaGPT"
-        },
-        {
-            "title": "Netflix-GPT",
-            "description": "It is a netflix clone which has trending,popular movie list and GPT based search to give suggestions for movie type.",
-            "date": "Oct 2023",
-            "techStack": [
-                "REACT",
-                "Firebase",
-                "OPENAI_API",
-                "Tailwind",
-                "JavaScript"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/gpt-flix",
-            "liveUrl": "https://gptflix-narasimha.vercel.app/",
-            "imageSrc": "/netflix.png",
-            "imageSrcWebP": "/netflix.webp",
-            "imageInfo": "Netflix-GPT"
-        },
-        {
-            "title": "Dashboard-Analytics",
-            "description": "It is a analytics webpage in React which shows graphical data pictorially.",
-            "date": "March 2023",
-            "techStack": [
-                "REACT",
-                "VITE",
-                "Tailwind",
-                "Material UI",
-                "JavaScript"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/Dashboard-Analytics",
-            "liveUrl": "https://dashboardanalytics.vercel.app/",
-            "imageSrc": "/dashboard.png",
-            "imageSrcWebP": "/dashboard.webp",
-            "imageInfo": "Dashboard-Analytics"
-        },
-        {
-            "title": "A Video Streaming App",
-            "description": "It is a video streaming application created in React which has functionalities like Debouncing,N-Level nested comments,caching,Live Chat.",
-            "date": "March 2023",
-            "techStack": ["JAVASCRIPT", "React", "Tailwind", "Redux"],
-            "codeUrl": "https://github.com/Narasimha9271/YouTube-Clone",
-            "liveUrl": "https://youtube-narasimha.vercel.app/",
-            "imageSrc": "/videostreaming.png",
-            "imageSrcWebP": "/videostreaming.webp",
-            "imageInfo": "Video Streaming App"
-        },
-        {
-            "title": "Battery Swapping",
-            "description": "A webApp which helps users to swap their Electric Vehicles at theit nearest Swapstation .",
-            "date": "May 2023",
-            "techStack": ["REACT", "JavaScript", "Tailwind", "Material UI"],
-            "codeUrl": "https://github.com/Narasimha9271/BatterySwapping",
-            "liveUrl": null,
-
-            "imageSrc": "/batteryswapping.png",
-            "imageSrcWebP": "/batteryswapping.webp",
-            "imageInfo": "Battery Swapping"
-        },
-        {
-            "title": "Food King",
-            "description": "A webApp shows the currently avaialble food items on various restaurents using swiggy's api.",
-            "date": "April 2023",
-            "techStack": [
-                "JavaScript",
-                "REACT",
-                "Node",
-                "Express",
-                "Tailwind",
-                "Swiggy API"
-            ],
-            "codeUrl": "https://github.com/Narasimha9271/Food-King/",
-            "liveUrl": "https://food-king.onrender.com/",
-            "imageSrc": "/foodvilla.png",
-            "imageSrcWebP": "/foodvilla.webp",
-            "imageInfo": "Food Villa"
-        }
-    ]
+  "projects": [
+    {
+      "title": "BankSphere",
+      "category": "Java / Event-driven services",
+      "description": "A banking application organized into Customer, Admin, and Notification services, with Kafka connecting transaction events to notifications.",
+      "date": "July 2025",
+      "techStack": ["Java", "Spring Boot", "MySQL", "Kafka", "React", "JWT"],
+      "highlights": ["Deposits, withdrawals, transfers, transaction history, and PDF statements.", "JWT authentication and separate services for customer, admin, and notification workflows."],
+      "flow": ["Customer / Admin", "Transaction event", "Kafka", "Notification"],
+      "codeUrl": "https://github.com/Narasimha9271/banksphere"
+    },
+    {
+      "title": "ReconcileAI",
+      "category": "AI / Document workflows",
+      "description": "An invoice-review application that extracts data from PDFs and images, validates vendor, currency, and purchase-order amounts, and keeps a human approval step.",
+      "date": "August 2026",
+      "techStack": ["Next.js", "FastAPI", "PostgreSQL", "Docker", "OpenAI API"],
+      "highlights": ["Google OAuth, role-based access, and PostgreSQL row-level security.", "Duplicate prevention, support for four currencies, and uploads up to 8 MB."],
+      "flow": ["Invoice upload", "AI extraction", "Validation", "Human approval"],
+      "codeUrl": "https://github.com/Narasimha9271/Reconcile-AI"
+    },
+    {
+      "title": "ViharaVista",
+      "category": "Full stack / Booking & payments",
+      "description": "A hotel-booking application with authenticated user sessions, hotel listings, and a Stripe payment flow.",
+      "date": "January 2024",
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "TypeScript", "Stripe"],
+      "highlights": ["JWT authentication with HTTP-only cookies.", "End-to-end booking and payment workflows built with the MERN stack."],
+      "flow": ["Hotel search", "Booking", "Stripe payment", "Confirmation"],
+      "codeUrl": "https://github.com/Narasimha9271/Booking-app",
+      "liveUrl": "https://viharavista.onrender.com/"
+    }
+  ],
+  "moreProjects": [
+    {"title": "Building Express.js", "description": "An Express-inspired Node.js library exploring routing and REST API fundamentals.", "codeUrl": "https://github.com/Narasimha9271/Building-Express"},
+    {"title": "HungerHub", "description": "A full-stack food-ordering application with restaurant management and Stripe payments.", "codeUrl": "https://github.com/Narasimha9271/hungerhub-frontend"},
+    {"title": "Video Streaming App", "description": "A React application exploring debounced search, caching, nested comments, and live chat.", "codeUrl": "https://github.com/Narasimha9271/YouTube-Clone"}
+  ]
 }

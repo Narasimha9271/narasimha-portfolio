@@ -1,61 +1,13 @@
-import { UseActiveOnScroll } from "../../hooks/useActiveOnScroll";
-import styles from "./Skills.module.css";
+const groups = [
+  { label: "Backend & messaging", skills: ["Java", "Spring Boot", "REST APIs", "Apache Kafka", "PL/SQL", "Node.js", "Express"] },
+  { label: "Databases & tools", skills: ["MySQL", "PostgreSQL", "MongoDB", "Git", "Docker", "IntelliJ IDEA", "Eclipse"] },
+  { label: "Frontend & AI applications", skills: ["React", "Next.js", "JavaScript", "TypeScript", "HTML / CSS", "Tailwind CSS", "Python", "FastAPI", "OpenAI API"] },
+  { label: "Computer science", skills: ["Data structures & algorithms", "Object-oriented programming", "DBMS", "Operating systems", "Computer networks", "System design", "C / C++"] }
+];
 
-const Skills = () => {
-    const { observerRef: sectionRef, isVisible } = UseActiveOnScroll(0.2);
-
-    return (
-        <section
-            className={`${styles.Skills} ${isVisible ? "active" : ""}`}
-            name="Skills"
-            ref={sectionRef}
-        >
-            <div className={styles.content}>
-                <h1
-                    className="section-header"
-                    style={{ "--x": "5%", "--y": "0rem" }}
-                >
-                    Skills
-                </h1>
-
-                <div>
-                    <h3>Web technologies</h3>
-                    <li>React</li>
-                    <li>jQuery</li>
-                    <li>HTML and CSS</li>
-                    <li>Tailwind and MUI</li>
-                    <li>Node</li>
-                    <li>Express</li>
-                    <li>Mongo DB</li>
-                    <li>Docker</li>
-                </div>
-                <div>
-                    <h3>Machine Learning</h3>
-                    <li>Supervised Machine Learning</li>
-                    <li>Deep Learning</li>
-                    <li>Reinforcement Learning</li>
-                    <li>Artificial Intelligence</li>
-                </div>
-                <div>
-                    <h3>Programming Languages</h3>
-                    <li>C++</li>
-                    <li>C</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                </div>
-                <div>
-                    <h3>Primary Tools</h3>
-                    <li>Text Editor: VSCode</li>
-                    <li>Postman</li>
-                    <li>Git </li>
-                    <li>GitHub</li>
-                    <li>Bash</li>
-                </div>
-            </div>
-        </section>
-    );
-};
-
-export { Skills };
+export function Skills() {
+  return <section id="Skills" className="section container" aria-labelledby="skills-title">
+    <div className="section-heading"><div><p className="eyebrow">04 / Skills</p><h2 id="skills-title">My engineering toolkit.</h2></div><p>Technologies used across professional work, <br />personal projects, and foundational study.</p></div>
+    <div className="skills-grid">{groups.map((group, index) => <article className="skill-group" key={group.label}><span className="skill-number">0{index + 1}</span><h3>{group.label}</h3><ul className="tags">{group.skills.map(skill => <li key={skill}>{skill}</li>)}</ul></article>)}</div>
+  </section>;
+}

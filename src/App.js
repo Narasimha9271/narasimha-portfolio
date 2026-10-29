@@ -1,38 +1,23 @@
-import { useEffect } from "react";
-import LinksSlider from "./components/LinksSlider/LinksSlider";
 import Navbar from "./components/Navbar/Navbar";
-import SkipToMainContent from "./components/SkipToMainContent/SkipToMainContent";
-
-import {
-    About,
-    Education,
-    Footer,
-    Home,
-    MainProject,
-    OtherProject,
-    Skills,
-} from "./screens";
+import { Home, About, Skills, MainProject, Education, Footer } from "./screens";
+import { Experience } from "./screens/Experience/Experience";
 
 function App() {
-    useEffect(() => {
-        document.querySelector(".loader").classList.add("deactivate");
-    }, []);
-
-    return (
-        <div className="App">
-            <SkipToMainContent to="#main-content" />
-            <Navbar />
-            <LinksSlider />
-
-            <Home />
-            <About />
-            <Skills />
-            <MainProject />
-            <OtherProject />
-            <Education />
-            <Footer />
-        </div>
-    );
+  return (
+    <>
+      <a className="skip-link" href="#main-content">Skip to main content</a>
+      <Navbar />
+      <main id="main-content" tabIndex="-1">
+        <Home />
+        <About />
+        <Experience />
+        <MainProject />
+        <Skills />
+        <Education />
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
